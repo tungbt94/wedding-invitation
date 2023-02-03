@@ -4710,8 +4710,6 @@ tbody.collapse.show {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
 }
 
 .card > hr {
@@ -9493,6 +9491,19 @@ button.bg-dark:focus {
 
 .text-center {
     text-align: center !important;
+}
+
+.center {
+    justify-content: center;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.col-gap-1 {
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
 }
 
 @media (min-width: 576px) {

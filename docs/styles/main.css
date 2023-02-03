@@ -9497,10 +9497,6 @@ button.bg-dark:focus {
     justify-content: center;
 }
 
-.no-wrap {
-    flex-wrap: nowrap;
-}
-
 .col-gap-1 {
     -webkit-column-gap: 1.25rem;
     column-gap: 1.25rem;
@@ -9517,6 +9513,10 @@ button.bg-dark:focus {
 
     .text-sm-center {
         text-align: center !important;
+    }
+
+    .sm-no-wrap {
+        flex-wrap: nowrap;
     }
 }
 
